@@ -1,0 +1,25 @@
+#tabla,th,td{
+    border: 1px solid black;
+    text-align: center;
+    
+    
+}
+caption{
+   font-weight: bold;
+   font-size: 22px;
+}
+#verde{
+    background-color: aquamarine;
+}
+#azul{
+    background-color: rgb(120, 120, 220);
+}
+#morado{
+    background-color: rgb(198, 152, 241);
+}
+.datos{
+    background-color: rgb(5, 82, 82);
+}
+.total{
+    background-color: rgb(162, 98, 20);
+}

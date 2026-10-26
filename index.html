@@ -11,9 +11,18 @@
 <body>
     <header>
         <h1>IES Augustóbriga</h1>
+        <figure>
+            <img src="imagenes/logoaugustobriga.png" width="150" hight="150" alt="Logotipo de IES Augustóbriga">
+            <figcaption>Fig.1 Logo IES Augustóbriga</figcaption>
+        </figure>
     </header>
-    <nav>Inicio | Noticias | Contacto</nav>
+    <nav>
+        <a href="#noticias">Noticias</a>
+        <a href="#actividades">| Actividades</a>
+        <a href="https://www.educarex.es/fp.html" target="_blank" title="Portal de Educación">| Contacto</a>
+    </nav>
     <main>
+
         <section id="noticias">
             <h2>Noticias</h2>
             <article id="noticia1" class="noticia">
@@ -25,15 +34,72 @@
                 <p><strong>Sábado 14</strong>, de 10:00 a 13:00 horas.</p>
             </article>
         </section>
-        <footer>
-            <address>Curso 2025-26 <br> Antonio Concha, 71 <br>Navalmoral de la Mata</address>
-        </footer>
 
         <section id="actividades">
             <h2>Actividades</h2>
+            <ul>
+                <li>Robótica</li>
+                <li>Teatro</li>
+                <li>Ajedrez</li>
+            </ul>
+            <table id="tabla">
+                <colgroup>
+                    <col id="verde">
+                    <col id="azul">
+                    <col id="morado">
+                </colgroup>
+                <caption>Horario de Robótica</caption>
+                <thead>
+                    <tr>
+                        <th>Día</th>
+                        <th>Hora</th>
+                        <th>Aula</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lunes</td>
+                        <td>17:00</td>
+                        <td>Aula 3</td>
+                    </tr>
+                    <tr>
+                        <td>Jueves</td>
+                        <td>17:00</td>
+                        <td>Aula 3</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th colspan="2">Sesiones semanales</th>
+                        <th>2</th>
+                    </tr>
+                </tfoot>
+            </table>
+            <br>
+
+
         </section>
+
+
+        <section id="como-llegar">
+            <p><a href="https://iesaugustobriga.educarex.es/" target="mapa">¿Cómo llegar?</a></p>
+            <br>
+            <iframe name="mapa" width="400" height="300"></iframe>
+        </section>
+
+
     </main>
     <aside>Próximos eventos</aside>
+    <ol>
+        <li>Puertas abiertas</li>
+        <li>Entrega de notas</li>
+        <li>Fiesta Fin de Curso</li>
+    </ol>
+    <details>
+        <summary>Horario de secretaría</summary>
+        <p>Lunes a viernes, de 9:00 a 14:00.</p>
+    </details>
+    <br>
     <footer>Curso 2026-27 Atonio Concha 71<br> Navalmoral de la Mata</footer>
 
 </body>
